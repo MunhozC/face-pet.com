@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.header {
+
+    background: #fff;
+    position: relative;
+    top: 100;
+    width: 100%;
+    text-align: center;
+    color: #27ae60;
+    font-size: 24px;
+    font-weight: bold;
+    height: auto;
+    background-attachment: local;
+    margin-top: 30px;
+ 
+ }
+
+.titulo_nome { color: rgb(46, 46, 46);
+    font-size: 18px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+}
+.descricao_nome { color: rgb(46, 46, 46);
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+.titulo { color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.descricao { color: black;
+    font-size: 15px;
+}
+
+inicio
+{ 
+    position: absolute;
+    top: 100;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    color: #08361c;
+    font-family: Futura;
+    font-size: 20px;
+    font-weight: bold;
+    height: auto;
+    background-attachment: local;
+    margin-top: 100px;
+}
+
+.center {
+    height : 100px;
+    line-height : 100px;
+    border : 1px solid black;
+    }
+ 
+    #form{position: relative;
+        top: -100px;
+        left: 50%;
+        transform: translate(0%,0%);
+    }
+ 
+    #nomeanimal{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px #000;
+        padding: 10px;
+        margin: 5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #nometutor{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #telefonetutor{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #emailtutor{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #dataperdido{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #localidade{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px  #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #ultlocalizacao{
+        font-size: 15px;
+        height: 40px;
+        width: 350px;
+        border: 1px #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+    #infogerais{
+        font-size: 15px;
+        height: 100px;
+        width: 350px;
+        border: 1px  #000;
+        padding: 10px;
+        margin: 0.5% 30px 10px 45% ;
+        background-color: rgb(236, 234, 234);
+    }
+
+    .rodape {
+
+        width:100%;
+        text-align: center;
+        color: white;
+        background-color: #013618;
+        background-attachment: fixed;
+        top: 150%;
+        position: absolute;
+        
+       
+        
+    
+    }
+p{
+    text-align: center;
+      font-size: 15px;
+      font-family:'Times New Roman', Times, serif;
+      color: rgb(46, 46, 46);
+
+}
+header a:hover{
+    color: #079344;
+    font-size: 25px;
+    }
+
+
+    .nav-list {
+        list-style: none;
+          display: flex;
+          margin: 200px auto;
+         
+         
+    }
+    
+
+.flex-container{
+display: flex;
+
+}
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Times New Roman', Times, serif;
+        background: #ffffff;
+        height: 30vh;
+        text-align: justify;
+        overflow: hidden;
+        
+    }
+    
+
+    
+    .nav-list li {
+        display: flex;
+        letter-spacing: 3px;
+        margin-left: 2px;
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 70px 30px;
+     }
+    
+
+   .field{
+	width: 50%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.4rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 5px;
+    margin-top: 5px;
+	transition: .3s;
+	color: gray;
+
+
+}
+.contact-box{
+	max-width: 500px;
+	width: 100%;
+	background: #fff;
+	margin: 20px auto;
+	padding: 30px;
+    
+}
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #2ecc71;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  h2:after{
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      height: 4px;
+      width: 50px;
+      border-radius: 2px;    
+  }
+
+  
+  .cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ebebeb;
+    color: gray;
+    border-radius: 15px;
+	max-width: 500px;
+	width: 100%;
+	margin-left: 420px;
+	
+  }
+  
+  .cadastro div {
+    max-width: 500px;
+	width: 100%;
+    padding: 10px;
+    text-align: right;
+		
+  }
+  
+  .cadastro div * {
+    margin: 5px;
+  }
+
+.btn{color: white;
+    background-color: #013618;
+    width: 350px;
+    height: 40px;
+    margin: 3% 10% -30% 13% ;
+    cursor: pointer;
+    
+
+}
+
+
+.box-img{
+    margin-top: 0%;
+    
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+    border: 2px solid rgb(208, 205, 210);
+    
+}
+  
+.box {
+    margin-top: 30%;
+       
+    height: 400px;
+    width: 120%;
+    background-color: rgb(235, 232, 232);
+    margin-left: 60%;
+    padding: 20px;
+    border: 1px solid rgb(208, 205, 205);
+    
+  }
+  
+    .botão-comentário {
+      display: block;
+      margin-left: 80px;
+      margin-right: auto;
+    }
+  
+    .texto-box-img {
+        
+      text-align: center;
+      font-size: 10px;
+      font-family:'Times New Roman', Times, serif;
+      color: rgb(46, 46, 46);
+    }
+  
+  .teste {
+    min-width: 150px;
+  }
+
+  
+ #linha-horizontal {
+	width: 100%;
+	border: 1px solid rgb(89, 87, 87);
+   }
