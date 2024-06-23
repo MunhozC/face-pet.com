@@ -1,0 +1,29 @@
+message: Please cite this software using these metadata.
+title:Face Pet
+authors:
+  - family-names: Pinheiro Leal Do Couto
+    given-names: Janaína
+  - family-names: Malta Boscatti
+    given-names: Thais
+  - family-names: Munhoz Carneiro
+    given-names: Thais
+  - family-names: Nunes da Silva
+    given-names: Jamille
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+  - name-suffix: Joyce Christina de Paiva Carvalho
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+keywords:
+  - 
+  - 
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-face-pet
+version: 1.0.0
+date-released: 2022-02-01
